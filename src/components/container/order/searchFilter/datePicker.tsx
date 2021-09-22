@@ -49,3 +49,4 @@ const DatePicker: FunctionComponent = () => {
 export default DatePicker;
 
 //TODO: ~물결무늬는 어떻게 넣으면 좋을까요?
+//모든 요소는 태그를 가진다!

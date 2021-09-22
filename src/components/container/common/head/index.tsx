@@ -21,6 +21,7 @@ const ContainerHeader: FunctionComponent = (props) => {
 };
 
 //TODO:얘는 어떻게 아래에 있어도 적용이 되는 거지?
+//원래 위에 있어야 하는 게 맞는데, 이건 js의 영역
 const HeaderPanel = styled.div`
   position: absolute;
   width: 351px;

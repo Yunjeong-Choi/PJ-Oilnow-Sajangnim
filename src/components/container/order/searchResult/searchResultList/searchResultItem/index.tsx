@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import TableValue from "./tableValue";
+import TableValue from "./ResultItem";
 
 const TableRow: FunctionComponent = () => {
   return (

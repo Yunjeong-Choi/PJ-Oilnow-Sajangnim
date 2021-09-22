@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import styled from "styled-components";
 import TableHead from "./searchResultFilter/index";
-import TableBody from "./tableBody/index";
+import TableBody from "./searchResultList/index";
 
 const SearchResult: FunctionComponent = () => {
   return (

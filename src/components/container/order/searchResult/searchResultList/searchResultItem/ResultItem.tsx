@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import styled from "styled-components";
 import Label from "../../../../../common/label/Label";
-import DetailButton from "./detailButton";
+import DetailButton from "./DetailButton";
 
 // const StyledLabel = styled(Label)`
   

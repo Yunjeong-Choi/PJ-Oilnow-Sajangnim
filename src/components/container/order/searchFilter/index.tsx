@@ -1,9 +1,9 @@
 import { FunctionComponent } from "react";
 import styled from "styled-components";
 import SubTitle from "../../../common/title/subTitle";
-import DatePicker from "./datePicker";
-import GroupOfPayStatus from "./groupOfPayStatus";
-import SearchButton from "./searchButton";
+import DatePicker from "./DatePicker";
+import PayStatusList from "./PayStatusList";
+import SearchButton from "./SearchButton";
 
 const StyledSearchFilter = styled.div`
   position: absolute;
@@ -13,7 +13,6 @@ const StyledSearchFilter = styled.div`
   top: 0px;
   background: white;
 `;
-//TODO: 다 컴포넌트 명에 styled라고 붙여주는 것이 convention?
 
 const SearchFilterTitle = styled(SubTitle)`
   left: 0%;
@@ -29,7 +28,7 @@ const SearchFilter: FunctionComponent = () => {
         검색 필터
       </SearchFilterTitle>
       <DatePicker />
-      <GroupOfPayStatus />
+      <PayStatusList />
       <SearchButton>검색</SearchButton>
     </StyledSearchFilter>
   );
