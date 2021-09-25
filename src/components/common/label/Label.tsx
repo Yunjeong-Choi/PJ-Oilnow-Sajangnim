@@ -1,30 +1,28 @@
-import { FunctionComponent } from "react";
+// import { FunctionComponent } from "react";
 import styled from "styled-components";
 
-type LabelProps = {
-    className?: string,
-}
+// type LabelProps = {
+//     className?: string,
+// }
 
-const Label: FunctionComponent<LabelProps> = (props) => {
-  const { className, children } = props;
-  return <StyledLabel className={className}>{children}</StyledLabel>
-}
+// const Label: FunctionComponent<LabelProps> = (props) => {
+//   const { className, children } = props;
+//   return <StyledLabel className={className}>{children}</StyledLabel>
+// }
 
-const StyledLabel = styled.div`
+const Label = styled.div`
 height: 25px;
 width: 65px;
-display: inline-block;
-
 border-radius: 15px;
+background: rgba(253, 215, 81, 0.88);
 
-font-style: normal;
 font-weight: 500;
 font-size: 11px;
+color: #343A40;
 
-text-align: center;
-letter-spacing: -0.04em;
-
-background: rgba(253, 215, 81, 0.88);
+display: flex;
+justify-content: center;
+align-items: center;
 `;
 
 export default Label;

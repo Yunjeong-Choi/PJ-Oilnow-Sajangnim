@@ -1,14 +1,17 @@
-import './App.css';
-import Container from './components/container';
-import Modal from './components/modal';
-import Navigation from './components/navigation';
+// import Navigation from './components/navigation';
+import Container from "./components/container";
+import CancelModal from "./components/modal/cancel";
+import { useState } from "react";
 
 function App() {
+  const [isCancelModalOpened, setCancelOpened] = useState<boolean>();
+
+
   return (
     <div className="App">
-      <Navigation />
+      {/* <Navigation /> */}
       <Container />
-      <Modal />
+      {isCancelModalOpened && <CancelModal />}
     </div>
   );
 }

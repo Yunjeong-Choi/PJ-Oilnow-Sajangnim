@@ -1,11 +1,11 @@
-import ContainerHeader from "./common/head";
-import OrderContainer from "./order/index";
+import ContainerHeader from "./common/ContainerHeader";
+import OrderContainerBody from "./order/index";
 
 const Container = () => {
   return (
     <>
       <ContainerHeader>주문관리</ContainerHeader>
-      <OrderContainer />
+      <OrderContainerBody />
     </>
   );
 };

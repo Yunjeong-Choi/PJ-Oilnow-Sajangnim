@@ -1,16 +1,16 @@
 import { FunctionComponent } from "react";
-import ContainerBody from "../common/body";
 import SearchFilter from "./searchFilter";
 import SearchResult from "./searchResult";
 
-const OrderContainer: FunctionComponent = () => {
+const OrderContainerBody: FunctionComponent = () => {
   return (
-    <ContainerBody>
+    <div className="container-body">
       <SearchFilter />
       <SearchResult />
-    </ContainerBody>
+    </div>
   );
 };
 
-export default OrderContainer;
+export default OrderContainerBody;
 
+//TODO: 왜 컨테이너 바디의 배경색이 안보일까

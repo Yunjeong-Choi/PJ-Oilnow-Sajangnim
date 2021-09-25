@@ -2,20 +2,21 @@ import { FunctionComponent } from "react";
 import styled from "styled-components";
 import SquareButton from "../../../common/button/SquareButton";
 
-const StyledSearchButton = styled(SquareButton)`
-  position: absolute;
-  width: 65px;
-  height: 37px;
-  left: 286px;
-  top: 121px;
-  background: #343a40;
-  color: white;
-  font-weight: bold;
-  border: none;
-`;
-
 const SearchButton: FunctionComponent = () => {
   return <StyledSearchButton>검색</StyledSearchButton>;
 };
 
 export default SearchButton;
+
+const StyledSearchButton = styled(SquareButton)`
+  width: 65px;
+  height: 37px;
+  background: #343a40;
+  border: none;
+
+  color: white;
+  font-weight: bold;
+
+`;
+
+// TODO: 어떻게 오른쪽으로 옮길까

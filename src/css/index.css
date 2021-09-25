@@ -1,0 +1,19 @@
+@import "reset.css";
+
+body {
+  margin: 0 12px;
+}
+
+.App {
+  font-family: Noto Sans KR;
+  font-style: normal;
+
+  max-width: 375px;
+}
+
+.container-body {
+  background: #e9ecef;
+}
+
+/* TODO: container-body 여기서 설정하면 반영이 안되나요? */
+/* TODO: 색상을 한군데에 모아야겠다. (노마드코더 참고) */
