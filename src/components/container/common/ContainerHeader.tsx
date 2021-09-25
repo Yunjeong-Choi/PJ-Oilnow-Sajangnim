@@ -38,7 +38,7 @@ const StyledHeaderSide = styled.div`
 
 const HeaderGrayButton = styled(GrayButton)`
   margin-right: 8px;
-`
+`;
 
 // 어라 왜 width가 안먹지? -> 세미콜론이 안붙으면 인식을 못하는구나
 const QRButton = styled(BlueButton)`
