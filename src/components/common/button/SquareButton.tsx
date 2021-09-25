@@ -15,21 +15,21 @@ const SquareButton: FunctionComponent<SquareButtonProps> = (props) => {
 export default SquareButton;
 
 const StyledSquareButton = styled.button`
-height: 37px;
-border-radius: 3px;
+  height: 37px;
+  border-radius: 3px;
 
-background: #ffffff;
-border: 0.7px solid #8a8a8a;
-box-sizing: border-box;
-border-radius: 4px;
+  background: #ffffff;
+  border: 0.7px solid #8a8a8a;
+  box-sizing: border-box;
+  border-radius: 4px;
 
-cursor: pointer;
+  cursor: pointer;
 
-color: #343a40;
+  color: #343a40;
 
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const DarkGrayButton = styled(SquareButton)`

@@ -11,12 +11,20 @@ const SearchFilter: FunctionComponent = () => {
       <SubTitle>검색 필터</SubTitle>
       <DatePicker />
       <PayStatusList />
-      <SearchButton>검색</SearchButton>
+      <StyledSearchButtonLine>
+        <SearchButton>검색</SearchButton>
+      </StyledSearchButtonLine>
     </StyledSearchFilter>
   );
 };
 
 export default SearchFilter;
+
+const StyledSearchButtonLine = styled.div`
+  display: flex;
+  justify-content: right;
+  width: 100%;
+`;
 
 const StyledSearchFilter = styled.div`
   background: white;

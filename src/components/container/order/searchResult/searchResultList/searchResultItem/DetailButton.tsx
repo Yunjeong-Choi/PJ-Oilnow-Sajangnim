@@ -1,10 +1,18 @@
 import { FunctionComponent } from "react";
 import styled from "styled-components";
 
-const DetailButton: FunctionComponent = (props) => {
-  const { children } = props;
-  
-  return <StyledDetailButton>{children}</StyledDetailButton>;
+interface DetailButtonProps {
+  onDetailHandler: () => void;
+}
+
+const DetailButton: FunctionComponent<DetailButtonProps> = (props) => {
+  const { children, onDetailHandler } = props;
+
+  return (
+    <StyledDetailButton onClick={onDetailHandler}>
+      {children}
+    </StyledDetailButton>
+  );
 };
 
 export default DetailButton;

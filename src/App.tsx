@@ -1,17 +1,16 @@
-// import Navigation from './components/navigation';
 import Container from "./components/container";
 import CancelModal from "./components/modal/cancel";
-import { useState } from "react";
+import { useSelector } from "react-redux";
+import { RootState } from "./store";
 
 function App() {
-  const [isCancelModalOpened, setCancelOpened] = useState<boolean>();
-
+  const isModalOpen = useSelector((state: RootState) => state.modal.isOpen);
 
   return (
     <div className="App">
       {/* <Navigation /> */}
       <Container />
-      {isCancelModalOpened && <CancelModal />}
+      {isModalOpen && <CancelModal />}
     </div>
   );
 }

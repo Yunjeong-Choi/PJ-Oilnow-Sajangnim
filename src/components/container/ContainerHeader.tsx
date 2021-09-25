@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import styled from "styled-components";
-import { GrayButton, BlueButton } from "../../common/button/RoundSquareButton";
-import HeaderTitle from "../../common/title/HeaderTitle";
+import { GrayButton, BlueButton } from "../common/button/RoundSquareButton";
+import HeaderTitle from "../common/title/HeaderTitle";
 
 const ContainerHeader: FunctionComponent = (props) => {
   const { children } = props;
@@ -30,6 +30,8 @@ const StyledContainerHeader = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  padding: 0 5px 0 5px;
 `;
 
 const StyledHeaderSide = styled.div`

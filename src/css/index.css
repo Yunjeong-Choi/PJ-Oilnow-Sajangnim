@@ -1,7 +1,7 @@
 @import "reset.css";
 
 body {
-  margin: 0 12px;
+  background: #e9ecef;
 }
 
 .App {
@@ -9,10 +9,6 @@ body {
   font-style: normal;
 
   max-width: 375px;
-}
-
-.container-body {
-  background: #e9ecef;
 }
 
 /* TODO: container-body 여기서 설정하면 반영이 안되나요? */

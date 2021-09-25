@@ -15,6 +15,7 @@ const SearchResult: FunctionComponent = () => {
 const StyledSearchResult = styled.div`
   height: 391px;
   background: white;
+  margin-top: 5px;
 `;
 
 export default SearchResult;

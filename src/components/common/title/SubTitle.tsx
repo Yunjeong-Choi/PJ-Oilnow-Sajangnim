@@ -20,7 +20,7 @@ const StyledSubTitle = styled.div`
   color: #343a40;
 
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 `;
 

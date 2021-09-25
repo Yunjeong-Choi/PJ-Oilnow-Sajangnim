@@ -28,7 +28,7 @@ function rowRenderer({
 }: RowRendererProps) {
   return (
     <div key={key} style={style}>
-      <SearchResultItem />
+      <SearchResultItem index={index} />
     </div>
   );
 }

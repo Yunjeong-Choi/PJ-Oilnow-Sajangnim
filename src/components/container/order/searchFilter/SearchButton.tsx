@@ -16,7 +16,6 @@ const StyledSearchButton = styled(SquareButton)`
 
   color: white;
   font-weight: bold;
-
 `;
 
 // TODO: 어떻게 오른쪽으로 옮길까
